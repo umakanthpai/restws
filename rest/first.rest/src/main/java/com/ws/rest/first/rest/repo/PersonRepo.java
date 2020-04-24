@@ -14,16 +14,16 @@ public class PersonRepo {
 		
 		Person p = new Person();
 		p.setId(10);
-		p.setName("Pai");
-		p.setAge(50);
-		p.setAddress("Glemsweg 8/4");
+		p.setName("Marc");
+		p.setAge(44);
+		p.setAddress("Street 1");
 		p.setGender("M");
 		
 		Person p1 = new Person();
 		p1.setId(20);
-		p1.setName("Neel Pai");
-		p1.setAge(15);
-		p1.setAddress("Glemsweg 8/4");
+		p1.setName("Peter");
+		p1.setAge(25);
+		p1.setAddress("Street 2");
 		p1.setGender("M");
 		
 		persons.add(p);
