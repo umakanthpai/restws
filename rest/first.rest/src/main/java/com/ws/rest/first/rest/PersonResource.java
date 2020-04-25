@@ -45,7 +45,7 @@ public class PersonResource {
 	
 	@GET
 	@Path("getperson/{id}")
-	@Produces(MediaType.APPLICATION_JSON)
+	@Produces({MediaType.APPLICATION_XML,MediaType.APPLICATION_JSON})
 	public Person getPerson(@PathParam("id") int id) {
 		
 		System.out.println("called getFirstPerson...");
