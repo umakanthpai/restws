@@ -26,7 +26,7 @@
 				<version>${glassfish.version}</version>
 				<configuration>
 					<goalPrefix>embedded-glassfish</goalPrefix>
-					<app>D:/MyDataInDrive/Trainings/JavaEE8-Webservices/REST-WebServices-Telusko/target/${project.build.finalName}.war</app>
+					<app>D:/git/webservices/rest/first.rest//target/${project.build.finalName}.war</app>
 					<autoDelete>true</autoDelete>
 					<port>8080</port>
 				</configuration>
